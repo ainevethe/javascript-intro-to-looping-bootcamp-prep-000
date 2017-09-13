@@ -1,10 +1,11 @@
 
 
 function forLoop(array) {
+  var newArray = [];
   for (var i = 0, i <25, i += 1);
     if (i === 1) {
-    console.log('I am 1 strange loop.')
+    newArray.push('I am 1 strange loop.')
   } else {
-    console.log('I am ${i} strange loop${i === 0 ? '' : 's'}.')
+    newArray.push('I am ${i} strange loop${i === 0 ? '' : 's'}.')
   }
 }

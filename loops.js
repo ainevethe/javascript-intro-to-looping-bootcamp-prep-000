@@ -6,6 +6,6 @@ function forLoop(array) {
     if (i === 1) {
     newArray.push('I am 1 strange loop.')
   } else {
-    newArray.push('I am ${i} strange loop${i === 0 ? '' : 's'}.')
+    newArray.push('I am ${i} strange loops')
   }
 }
